@@ -1,0 +1,9 @@
+﻿@model ComicBookGallery.Models.ComicBook[]
+
+@{
+    ViewBag.Title = "Comic Books";
+}
+
+<h3>@ViewBag.Title</h3>
+
+@Html.Partial("_ComicBooksList", Model)
